@@ -1,0 +1,384 @@
+* {
+  font-family: Poppins;
+  
+}
+
+.parallax-acara {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  background-image: linear-gradient(
+      rgba(24, 24, 24, 0.552),
+      rgba(74, 74, 74, 0.547)
+    ),
+    url("https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  height: 80vh;
+  top: -100px;
+  position: relative;
+}
+
+.title-acara {
+  font-size: 3.8rem;
+  font-weight: 500;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: Poppins;
+}
+
+.img-acara img{
+  display: block;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 500px;
+  height: 500px;
+}
+
+.showcase-title {
+   height: 300px;
+   width: 100%;
+   margin:  0 auto;
+}
+
+.title-description {
+ text-align: center;
+  cursor: pointer;
+  width: 54%;
+  margin-left: 143px;
+}
+
+.title-description:hover {
+  color: #e20782;
+}
+
+.description-acara {
+  text-align: justify;
+  color: #5d5c66;
+  font-weight: 500;
+  font-size: 1rem;
+  width: 80%;
+  margin-left: 190px; 
+}
+
+.img2-acara img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 500px;
+  height: 500px;
+}
+
+.title-dev{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  color: #e20782;
+  cursor: pointer;
+  width: 50%;
+  margin-left: 60px;
+}
+
+.img3-acara img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 500px;
+  height: 500px;
+}
+
+.showcase-openbatch {
+  height: 300px;
+  width: 99%;
+  margin: 50px 5px;
+}
+
+.title-batch {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ width: 70%;  
+ margin-left: 156px;
+}
+
+.title-batch:hover {
+ color: #e20782;
+}
+
+.description-batch {
+ text-align: justify;
+ align-items: center;
+ color: #5d5c66;
+ font-weight: 500;
+ font-size: 1rem;
+ width: 75%;
+ margin-left: 193px;
+}
+
+.img4-acara img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 500px;
+  height: 500px;
+}
+
+.showcase-talkstartup {
+  height: 300px;
+  width: 90%;
+  margin: 50px;
+}
+
+.title-start {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ color: #e20782;
+ width: 54%;
+  margin-left: 182px;
+}
+
+
+.description-start {
+ text-align: justify;
+ align-items: center;
+ color: #5d5c66;
+ font-weight: 500;
+ font-size: 1rem;
+ width: 79%;
+ margin-left: 184px;
+}
+
+.img5-acara img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 500px;
+  height: 500px;
+}
+
+.showcase-startupchallenge {
+  height: 300px;
+  width: 90%;
+  margin: 50px 10px;
+}
+
+.title-startupchallenge {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ width: 40%;
+margin-left: 169px;
+}
+
+.title-startupchallenge:hover {
+ color: #e20782;
+}
+
+.description-startupchallenge{
+text-align: justify;
+ color: #5d5c66;
+ font-weight: 500;
+ font-size: 1rem;
+ width: 80%;
+ margin-left: 188px;
+} 
+
+.img6-acara img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 500px;
+  height: 500px;
+}
+
+.showcase-bdg {
+  height: 300px;
+  width: 90%;
+  margin: 50px 10px;
+}
+
+.title-bdg {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-transform: uppercase;
+ cursor: pointer;
+ width: 40%;
+  margin-left: 178px;
+}
+
+.title-bdg:hover {
+ color: #e20782;
+}
+
+.icon-arrow:hover {
+  color: #e20782;
+}
+
+.description-bdg{
+text-align: justify;
+ color: #5d5c66;
+ font-weight: 500;
+ font-size: 1rem;
+ width: 80%;
+ margin-left: 183px;
+} 
+
+.scroll-top-tran3s {
+  width: 40px;
+  height: 40px;
+  float: right;
+  border: none;
+}
+
+
+
+/* ButtonAcara */
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.page-item,
+.page-link {
+  text-decoration: none;
+}
+
+/* ButtonAcara End */
+@media (max-width: 770px) {
+  .title-acara {
+    font-size: 3rem;
+  }
+
+  .img-acara img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 30px auto;
+  }
+
+  .title-description,
+  .description-acara {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .title-dev {
+    margin: 50px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .img-acara img,
+  .img2-acara img,
+  .img3-acara img,
+  .img4-acara img,
+  .img5-acara img,
+  .img6-acara img {
+    width: 100%;
+    height: auto;
+    max-width: 95%;
+    margin: 30px auto;
+  }
+
+  .icon-font,
+.arrow-right-icon{
+  width: 5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 0;
+}
+
+  .description-batch,
+  .description-start,
+  .description-startupchallenge,
+  .description-bdg {
+    width: 100%;
+    margin-left: 0;
+    text-align: justify;
+  }
+
+  .title-bdg,
+  .title-acara,
+  .title-batch,
+  .title-description,
+  .title-startupchallenge,
+  .title-start {
+    width: auto;
+    margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+ 
+}
+
+@media (max-width: 500px) {
+  .title-acara {
+    font-size: 2.5rem;
+  }
+
+  .img-acara img,
+  .img2-acara img,
+  .img3-acara img,
+  .img4-acara img,
+  .img5-acara img,
+  .img6-acara img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin: 30px auto;
+  }
+
+  .title-description,
+  .description-acara,
+  .title-dev,
+  .title-batch,
+  .description-batch,
+  .title-start,
+  .description-start,
+  .title-startupchallenge,
+  .description-startupchallenge,
+  .title-bdg,
+  .description-bdg {
+    width: 100%;
+    margin-left: 0;
+    font-size: 0.8rem;
+  }
+}
+
+/* FooterAcara */
+
+.footer-list-acara ul li {
+  width: 100px;
+  margin: 20px 0px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .footer-list-acara ul li {
+    height: auto;
+  }
+}

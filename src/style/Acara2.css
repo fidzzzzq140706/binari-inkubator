@@ -1,0 +1,77 @@
+
+ /* Acara 2 */
+
+.parallax-acara2 {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  background-image: linear-gradient(
+      rgba(24, 24, 24, 0.552),
+      rgba(74, 74, 74, 0.547)
+    ),
+    url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  height: 70vh;
+  top: -100px;
+  position: relative;
+  }
+  
+  .title-acara2 {
+  font-size: 4rem;
+  font-weight: 500;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: Poppins;
+  }
+
+  .acara2-container {
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+  .tran3s {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .acara2-text {
+    width: 70%;
+    text-align: justify;
+    margin: 80px;
+  }
+
+  .acara2-text a {
+    text-decoration: none;
+  }
+
+  .acara2-text h5 a {
+    display: flex;
+    justify-content: flex-start;
+    color: #111;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+  .acara2-text h5 a:hover {
+    color: #e20782;
+  }
+
+  .acara2-text p {
+  text-align: justify;
+  font-weight: 500;
+  margin-bottom: 22px;
+  color: gray;
+  }

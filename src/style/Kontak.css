@@ -1,0 +1,263 @@
+
+.parallax-kontak {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  background-image: linear-gradient(
+      rgba(24, 24, 24, 0.552),
+      rgba(74, 74, 74, 0.547)
+    ),
+    url("https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  height: 80vh;
+  top: -100px;
+position: relative;
+}
+
+.title-kontak {
+  font-size: 3.8rem;
+  font-weight: 500;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: Poppins;
+} 
+
+.kontak-alamat-wrapper {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.whole-kontak {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.eror {
+  width: 690px;
+  height: 155px;
+}
+
+.kontak-binari {
+  flex-basis: 60%;
+  padding-right: 20px;
+}
+.alamat-binari {
+  flex-basis: 40%;
+  padding-left: 15px;
+  margin-bottom: 200px;
+}
+
+.paragraf-kontak {
+  font-size: 1.2rem;
+  color: darkgray;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.h2-kontak:hover {
+  color: #e20782;
+}
+
+.h3-kontak:hover {
+  color: #e20782;
+}
+
+.button-kontak {
+  width: 200px;
+  height: 57px;
+  border-radius: 5px;
+  border: 1px solid #e20782;
+  margin: 50px;
+  position: relative; 
+  text-transform: uppercase;
+}
+
+.button-kontak::before { 
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  border-radius: 5px;
+  border: 2px solid white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.button-kontak h6 {
+  margin: 10px;
+}
+
+.button-kontak ,button {
+  background-color: #e20782;
+  color: #fff;
+}
+
+.button-kontak:hover::before, .button-kontak:focus::before { 
+  opacity: 1;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.social-media-icons a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%; 
+  border: 1px solid gray;
+  color: darkgray;
+}
+
+.tran3s {
+margin: 30px;
+margin-top: 0px;
+transition: .3s ease-in-out;
+}
+
+.tran3s:hover {
+  color: #e20782;
+}
+
+.social-media-icons a:hover {
+  color: #e20782;
+}
+
+.scroll-top {
+  display: block;
+  float: right;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  float: left;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  transition: border-bottom-color 0.3s ease; 
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-bottom-color: green; 
+}
+
+.contact-us-form input,
+.contact-us-form select,
+.contact-us-form textarea {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+/* .circle-icon {
+  align-items: center;
+  justify-content: center;
+}
+ */
+
+@media (max-width: 770px) {
+  .title-kontak {
+    font-size: 3rem;
+  }
+
+  .kontak-binari,
+  .alamat-binari {
+    flex-basis: 100%;
+    padding: 0;
+  }
+  .paragraf-h2 {
+    margin-top: 20px;
+  }
+
+  .paragraf-kontak {
+    margin-top: 30px;
+  }
+
+  .h3-kontak {
+    margin-top: 30px;
+  }
+
+  .h2-kontak {
+    margin-top: 30px;
+  }
+
+  .button-kontak {
+    margin: 30px;
+  }
+
+
+  .contact-us-form input,
+  .contact-us-form select,
+  .contact-us-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .title-kontak {
+    font-size: 2.5rem;
+  }
+
+  .button-kontak {
+    width: 150px;
+    height: 50px;
+  }
+
+  .img-kontak img {
+    height: 24px;
+    width: 24px;
+    margin: 40px 10px auto 10px;
+    border-radius: 12px 45%;
+    border: 1px solid #ccc;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .contact-us-form input,
+  .contact-us-form select,
+  .contact-us-form textarea {
+    margin-bottom: 10px;
+  }
+
+
+}
+
+
+
